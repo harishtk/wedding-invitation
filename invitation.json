@@ -1,0 +1,22 @@
+{
+  "bride": "Bride’s name",
+  "groom": "Groom’s name",
+  "bride_parents": "Mrs. & Mr. Bride’s parents",
+  "groom_parents": "Mrs. & Mr. Groom’s parents",
+  "date": "",
+  "timezone_label": "IST",
+  "venue": "Our wedding venue",
+  "address": "Venue and city to be announced",
+  "map_url": "",
+  "photos": {
+    "couple": "",
+    "bride": "",
+    "groom": "",
+    "bride_family": "",
+    "groom_family": "",
+    "venue": "",
+    "memory_one": "",
+    "memory_two": "",
+    "memory_three": ""
+  }
+}

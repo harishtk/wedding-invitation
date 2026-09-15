@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<main class="login-page">
+  <div class="login-card">
+    <div class="ornament" aria-hidden="true">✦</div>
+    <p class="eyebrow">AN INVITATION, WITH LOVE</p>
+    <h1>Some moments<br>are meant to be shared.</h1>
+    <p>We’ve saved a place for you.<br>Enter the password shared by our families.</p>
+    <form method="post">
+      <input type="hidden" name="csrf" value="{{ session.csrf }}">
+      <label for="password">Invitation password</label>
+      <input id="password" name="password" type="password" required autocomplete="current-password" {% if error %}aria-describedby="error" aria-invalid="true"{% endif %}>
+      {% if error %}<p class="error" id="error" role="alert">{{ error }}</p>{% endif %}
+      <button class="button" type="submit">Open our invitation <span aria-hidden="true">↗</span></button>
+    </form>
+    <span class="small">TWO FAMILIES · ONE BEAUTIFUL BEGINNING</span>
+  </div>
+</main>
+{% endblock %}
