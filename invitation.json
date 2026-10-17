@@ -1,22 +1,22 @@
 {
-  "bride": "Bride’s name",
-  "groom": "Groom’s name",
-  "bride_parents": "Mrs. & Mr. Bride’s parents",
-  "groom_parents": "Mrs. & Mr. Groom’s parents",
-  "date": "",
+  "bride": "Shobia NKS",
+  "groom": "Hariskumar T K",
+  "bride_parents": "Subramaniyan & Rajeshwari",
+  "groom_parents": "Kubendran & Mekala (late)",
+  "date": "05-09-2027",
   "timezone_label": "IST",
   "venue": "Our wedding venue",
-  "address": "Venue and city to be announced",
-  "map_url": "",
+  "address": "Nagarathinam Angalammal Thirumana Mandapam, Villapuram, Madurai - 625012",
+  "map_url": "https://maps.app.goo.gl/1kQTs84xctGXcsms5",
   "photos": {
-    "couple": "",
-    "bride": "",
-    "groom": "",
-    "bride_family": "",
-    "groom_family": "",
-    "venue": "",
-    "memory_one": "",
-    "memory_two": "",
-    "memory_three": ""
+    "couple": "/static/photos/couple.jpg",
+    "bride": "/static/photos/bride_single.jpg",
+    "groom": "/static/photos/groom_single_2.jpg",
+    "bride_family": "/static/photos/bride_family.jpg",
+    "groom_family": "/static/photos/groom_family.jpg",
+    "venue": "/static/photos/venue.jpg",
+    "memory_one": "/static/photos/memory_1.jpg",
+    "memory_two": "/static/photos/memory_2.jpg",
+    "memory_three": "/static/photos/memory_3.jpg"
   }
 }
